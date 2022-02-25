@@ -1,0 +1,35 @@
+.todo-main li{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+
+}
+li label{
+    float: left;
+    cursor: pointer;
+}
+/* li:hover{
+    background-color: pink;
+
+} */
+li button{
+   float:right;
+   /* display:none; */
+   margin-top: 6px;
+}
+/* 好像没什么用 */
+li label input {
+  vertical-align:middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+/* 不知道什么意思 */
+li:before {
+  content: initial;
+}
+li:last-child{
+    border-bottom: none;
+}
