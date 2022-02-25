@@ -15,6 +15,9 @@
 - JSX
 - React
 
+# Links
+- Live Site URL: https://lindaxin1121.github.io/Todolist-APP/
+
 # Main programming ideas and methods
 
 - Break into different components according to different functional areas of the interface.
@@ -37,8 +40,8 @@
 ```
 
 - Transfer data from child component to father component:
-    (1) Transfer a function to child component through props
-    (2) Child component call this function and transfer data to father component through parameter
+    - Transfer a function to child component through props
+    - Child component call this function and transfer data to father component through parameter
     ```
         const todoObj = { id: nanoid(), name: event.target.value, done: false }
         this.props.addTodo(todoObj)
